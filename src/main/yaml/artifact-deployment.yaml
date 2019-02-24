@@ -235,7 +235,7 @@ data:
     \      containers:\n      - env:\n        - name: JAVA_OPTS\n          value:\
     \ -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom\n         \
     \   -DunisonEnvironmentFile=/etc/openunison/ou.env\n        - name: fortriggerupdates\n\
-    \          value: changeme\n        image: docker.io/mlbiam/openunison-k8s-login-saml2\n\
+    \          value: changeme\n        image: docker.io/tremolosecurity/openunison-k8s-login-saml2\n\
     \        imagePullPolicy: Always\n        livenessProbe:\n          exec:\n  \
     \          command:\n            - /usr/local/openunison/bin/check_alive.py\n\
     \          failureThreshold: 10\n          initialDelaySeconds: 120\n        \
