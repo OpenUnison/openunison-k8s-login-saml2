@@ -1,4 +1,4 @@
-# Orchestra Login Portal for ActiveDirectory
+# Orchestra Login Portal for SAML2
 
 [![Alt text](https://i.vimeocdn.com/video/735154945_640.webp)](https://vimeo.com/319288583)
 
