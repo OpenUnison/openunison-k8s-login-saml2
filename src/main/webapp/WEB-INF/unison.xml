@@ -58,6 +58,19 @@
             />
             <param name="idpName" value="k8sIdp" />
             </job>
+            <job className="com.tremolosecurity.jobs.CheckSamlIdPs" name="checkSamlIdps" group="operators">
+                <cronSchedule
+                  seconds="*/30"
+                  minutes="*"
+                  hours="*"
+                  dayOfMonth="*"
+                  month="*"
+                  dayOfWeek="?"
+                  year="*"
+                />
+                <param name="target" value="k8s" />            
+                <param name="selfLink" value="#[K8S_SELF_LINK]" />
+              </job>
         </scheduler>
         <listeners>
           
