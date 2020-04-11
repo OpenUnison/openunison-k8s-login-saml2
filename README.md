@@ -99,6 +99,7 @@ Copy `values.yaml` and update as appropriate:
 | dashboard.service_name | The name of the service object for the dashboard |
 | k8s_cluster_name | The name of the cluster to use in the `./kube-config`.  Defaults to `kubernetes` |
 | image | The name of the image to use |
+| enable_impersonation | If `true`, OpenUnison will run in impersonation mode.  Instead of OpenUnison being integrated with Kubernetes via OIDC, OpenUnison will be a reverse proxy and impersonate users.  This is useful with cloud deployments where oidc is not an option |
 | monitoring.prometheus_service_account | The prometheus service account to authorize access to the /monitoring endpoint |
 | saml.idp_url | The url to your identity provider's saml2 metadata.  If not using a metadata url, set this to an empty string `""` |
 | saml.metadata_xml_b64 | Base64 encoded metadata.  Will only be used if `idp_url` is an empty string |
