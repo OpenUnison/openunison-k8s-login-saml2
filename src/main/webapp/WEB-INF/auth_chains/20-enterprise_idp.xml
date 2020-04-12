@@ -6,6 +6,7 @@
       <param value="#[IDP_POST]" name="idpURL" />
       <param value="#[IDP_REDIR]" name="idpRedirURL" />
       <param value="idp-saml2-sig" name="idpSigKeyName" />
+      <param value="idp-saml2-sig-1" name="idpSigKeyName" />
       <param value="uid" name="ldapAttribute" />
       <param value="saml" name="dnOU" />
       <param value="inetOrgPerson" name="defaultOC" />
