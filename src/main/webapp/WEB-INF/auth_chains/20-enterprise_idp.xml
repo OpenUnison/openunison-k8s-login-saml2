@@ -14,8 +14,8 @@
       <param name="spSigKey" value="unison-saml2-rp-sig" />
       <param name="sigAlg" value="RSA-SHA256" />
       <param name="signAuthnReq" value="true"/>
-      <param name="assertionsSigned" value="true" />
-      <param name="responsesSigned" value="false" />
+      <param name="assertionsSigned" value="#[SAML2_ASSERTION_SIGNED:true]" />
+      <param name="responsesSigned" value="#[SAML2_RESPONSE_SIGNED:false]" />
       <param name="assertionEncrypted" value="false" />
       <param name="spEncKey" value="" />
       <param name="forceToSSL" value="false" />
