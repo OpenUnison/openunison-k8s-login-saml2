@@ -66,5 +66,6 @@
     <timeout>#[SESSION_INACTIVITY_TIMEOUT_SECONDS]</timeout>
     <!-- required but ignored -->
     <scope>-1</scope>
+    <sameSite>None</sameSite>
   </cookieConfig>
   </application>
