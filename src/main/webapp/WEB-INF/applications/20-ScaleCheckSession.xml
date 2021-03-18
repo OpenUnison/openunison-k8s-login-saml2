@@ -58,5 +58,6 @@
     <httpOnly>true</httpOnly>
     <timeout>1</timeout>
     <scope>-1</scope>
+    <sameSite>None</sameSite>
   </cookieConfig>
 </application>
